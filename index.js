@@ -70,4 +70,4 @@ db.sequelize.sync()
         } catch (err) {
             res.status(500).send(err);
         }
-    })
+    });
